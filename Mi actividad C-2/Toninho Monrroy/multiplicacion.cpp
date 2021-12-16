@@ -4,13 +4,13 @@ using namespace std;
 
 int main(){
 	int n1,n2;
-	float resultado=0;
+	float m=0;
 	cout<<"INGRESE EL PPRIMER NUMERO: ";
 	cin>>n1;
 	cout<<"INGRESE EL SEGUNDO NUMERO: ";
 	cin>>n2;
-	cout<<"**********SUMA***********"<<endl;
-		resultado=n1+n2;
-		cout<<"LA SUMA ES: "<<resultado<<endl;
+	cout<<"*******MULTIPLICACION*******"<<endl;
+		m=n1*n2;
+		cout<<"LA MULTIPLICACION ES: "<<m<<endl;
 	return 0;
 }
